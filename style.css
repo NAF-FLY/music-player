@@ -195,10 +195,14 @@ i.fa-step-backward{
         height: 250px;
         width: 250px;
     }
-    .buttons {
+    /* .buttons {
         margin: 0 -40px 0 -40px;
-    }
-    /* .loader {
-        height: 50px;
     } */
+    .repeat-track, .random-track, .playpause-track, .prev-track, .next-track {
+        padding: 15px;
+    }
+
+    .loader {
+        height: 50px;
+    }
 }
