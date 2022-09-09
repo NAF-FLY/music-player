@@ -5,7 +5,7 @@ body{
 .player{
     height: 95vh;
     display: flex;
-    width: (50%, 500px);
+    width: (90%, 500px);
     /* align-items: center; */
     flex-direction: column;
     justify-content: center;
