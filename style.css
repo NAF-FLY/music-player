@@ -51,6 +51,7 @@ body{
 .buttons{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
@@ -183,4 +184,11 @@ i.fa-step-backward{
 }
 .stroke:nth-child(7){
     animation-delay: 0s;
+}
+
+@media screen and (max-width: 980px) {
+    .track-art {
+        height: 180px;
+        width: 180px;
+    }
 }
