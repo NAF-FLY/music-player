@@ -22,6 +22,7 @@ body{
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 10px;
 }
 .track-art{
     margin: 25px;
@@ -187,8 +188,17 @@ i.fa-step-backward{
 }
 
 @media screen and (max-width: 980px) {
-    .track-art {
-        height: 180px;
-        width: 180px;
+    .player {
+        margin: 10px 0;
     }
+    .track-art {
+        height: 250px;
+        width: 250px;
+    }
+    .buttons {
+        margin: 0 -40px 0 -40px;
+    }
+    /* .loader {
+        height: 50px;
+    } */
 }
